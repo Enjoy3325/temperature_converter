@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.server.path": "rust-analyzer",
+    "rust-analyzer.cargo.runBuildScripts": true,
+    "rust-analyzer.checkOnSave": false
+}
