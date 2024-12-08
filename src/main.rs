@@ -25,6 +25,7 @@ fn main() {
     // Ввод выбора пользователя
     let mut user_choice = String::new();
     io::stdin().read_line(&mut user_choice).unwrap(); // Чтение выбора
+
     let number_choice: u8 = match user_choice.trim().parse::<u8>() {
         Ok(val) => val,
         Err(_) => {
@@ -43,6 +44,7 @@ fn main() {
     println!("Enter temperature:");
     let mut temperature = String::new();
     io::stdin().read_line(&mut temperature).unwrap(); // Чтение температуры
+    
     let temperature: f32 = match temperature.trim().parse::<f32>() {
         Ok(val) => val,
         Err(_) => {
